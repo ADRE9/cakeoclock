@@ -8,29 +8,34 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/mystyles.css">
     <title>Cake o' Clock</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top ">
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Cake o' clock</a>
+            <a class="navbar-brand" href="./index.html">Cake o' clock</a>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home"></span>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home"></span>Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./cake.html"><span class="fa fa-birthday-cake"></span>Cakes</a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-group"></span>About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-send-o"></span>Contact us</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-send-o"></span>Contact us</a></li>
             </div>
                 </ul>
         </div>
     </nav>
     <header class="jumbotron">
+        <ol class="col-12 breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item"><a>Contact us</a></li>
+        </ol>
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
@@ -42,35 +47,40 @@
             </div>
         </div>
     </header>
-
     <div class="container">
-        <div class="row row-content align-items-center">
+        <div class="row">
             <div class="col-12">
-                <div>
-                    <h4>Cake o' Clock is an in-house bakery offering classic desserts made entirely from scratch using simple, natural ingredients.</h4>
-                </div>
+               <h2>Contact Us</h2>
+               <hr>
             </div>
         </div>
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3 order-sm-last">
-                <h3>Best sellers with  Designer Cake Patterns</h3>
-            </div>
-            <div class="col-12 col-sm-6 col-md-9 order-sm-first">
-                <P>WE LOVE TO HELP YOU CELEBRATE!<br/>
-                Talk to a Celebration Specialist today to plan the perfect cake for your special occasion.</P>
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div>
-                <div>
-                    <h3>Cakes-
-                        <div>
 
-                        </div>
-                    </h3>
+        <div class="row row-content">
+           <div class="col-12">
+              <h3>Location Information</h3>
+           </div>
+            <div class="col-12 col-sm-4 offset-sm-1">
+                   <h5>Our Address</h5>
+                    <address style="font-size: 100%">
+		              Hingana<br>
+		              Nagpur<br>
+		              M.H<br>
+		              <i class="fa fa-phone fa-lg"></i>: +91 8830904719<br>
+		              <i class="fa fa-envelope fa-lg"></i>: <a href="lopamudragiri2@gmail.com">cakeoclock.net</a>
+		           </address>
+            </div>
+            <div class="col-12 col-sm-6 offset-sm-1">
+                
+            </div>
+            <div class="col-12 col-sm-11 offset-sm-1">
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary" href="tel:+918830904719"><i class="fa fa-phone"></i> Call</a>
+                    <a role="button" class="btn btn-danger" href="lopamudragiri2@gmail.com"><i class="fa fa-envelope-o"></i> Email</a>
+                    <a role="button" class="btn btn-success" href="tel:+918830904719"><i class="fa fa-whatsapp"></i> whatsapp</a>
                 </div>
             </div>
-        </div>      
+        </div>
+
     </div>
 
     <footer class="footer">
@@ -79,10 +89,10 @@
                 <div class="col-4 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./aboutus.html">About</a></li>
                         <li><a href="./cake.html">Cakes</a></li>
-                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="offset-sm-1 col-7 col-sm-2">
