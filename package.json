@@ -1,31 +1,27 @@
 {
   "name": "cakeoclock",
   "version": "1.0.0",
-  "description": "A webpage for cakeoclock.",
-  "main": "index.html",
+  "description": "cake o clock",
+  "main": "index.js",
   "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bunny1315/cakeoclock.git"
+    "url": "git+https://github.com/ADRE9/cakeoclock.git"
   },
-  "author": "Lopamudra Giri",
+  "author": "MAK LOPA",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bunny1315/cakeoclock/issues"
+    "url": "https://github.com/ADRE9/cakeoclock/issues"
   },
-  "homepage": "https://github.com/Bunny1315/cakeoclock#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  },
+  "homepage": "https://github.com/ADRE9/cakeoclock#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.16.1"
   }
 }
