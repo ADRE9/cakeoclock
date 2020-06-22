@@ -4,7 +4,9 @@
   "description": "cake o clock",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,13 @@
     "jquery": "^3.5.1",
     "lite-server": "^2.5.4",
     "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "jit-grunt": "^0.10.0",
+    "time-grunt": "^2.0.0"
   }
 }
